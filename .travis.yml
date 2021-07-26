@@ -1,0 +1,9 @@
+language: Ruby
+dist: bionic
+arch:
+  - ppc64le
+script:
+  - ./config
+  - make
+  - sudo make install
+  - make test
